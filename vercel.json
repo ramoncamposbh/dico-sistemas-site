@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/email-forward", "destination": "/", "permanent": false },
+    { "source": "/email-forward/:path*", "destination": "/", "permanent": false }
+  ]
+}
