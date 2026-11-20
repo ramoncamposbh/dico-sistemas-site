@@ -2,5 +2,9 @@
   "redirects": [
     { "source": "/email-forward", "destination": "/", "permanent": false },
     { "source": "/email-forward/:path*", "destination": "/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/projetos/clientes/english2b", "destination": "https://english2b-demo.vercel.app/projetos/clientes/english2b" },
+    { "source": "/projetos/clientes/english2b/:path*", "destination": "https://english2b-demo.vercel.app/projetos/clientes/english2b/:path*" }
   ]
 }
